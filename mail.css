@@ -1,0 +1,125 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+header
+{
+      background-color: white;
+    position:fixed;
+    width: 100%;
+    height:10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+  margin-right: 17%;
+}
+
+.button1 {
+    background: #5de1ec;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 12px;
+} 
+
+.nav-bar ul {
+  list-style-type: none;
+}
+
+li {
+ display: inline-block;
+ margin-left: 25px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+section{
+-webkit-clip-path: polygon(46% 0, 100% 0, 100% 54%, 0 100%, 0 23%);
+clip-path: polygon(46% 0, 100% 0, 100% 54%, 0 100%, 0 23%);
+ background-color: purple;
+ z-index: -1;
+ position: absolute;
+  width: 100%;
+  height: 657px;
+}
+.headline h1
+{
+  text-align: center;
+    font-size: 52px;
+    color: white;
+    padding-top: 14%;  
+}
+.headline p
+
+{
+   margin-left: 32%;
+    height: 42px;
+    color: white;
+}
+.heading2 h1{
+   text-align: center;
+    font-size: 52px;
+    color: black;
+    padding-top: 14%; 
+
+}
+.heading p
+
+{
+   margin-left: 32%;
+    height: 42px;
+    color: white;
+}
+.section3{
+-webkit-clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 27%);
+clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 27%);
+ background-color:#6e7abd;
+ position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+
+}
+.section5{
+-webkit-clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 27%);
+clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 27%);
+ background-color:#6e7abd;
+ position: absolute;
+  width: 100%;
+  height: 170%;
+  z-index: -1;
+
+}
+.section7{
+-webkit-clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 27%);
+clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 27%);
+ background-color:#6e7abd;
+ position: absolute;
+  width: 100%;
+  height: 130%;
+  z-index: -1;
+
+}
+.section8{
+ position: absolute;
+  width: 100%;
+  height: 112%;
+  z-index: -1;
+margin-top: 50%;
+}
+.about{
+  width: 20%;
+  margin-top: 25%;
+  margin-left: 10%;
+}
+.Page{
+      margin-left: 35%;
+    margin-top: -14%;
+}
